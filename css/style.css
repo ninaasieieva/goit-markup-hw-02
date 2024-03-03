@@ -102,8 +102,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
 }
-.team-list {
-    background-color: #ffffff;}
+
 
 .team-subtitle {
 font-family: Roboto, sans-serif;
@@ -124,7 +123,8 @@ color: #2E2F42;
 
 
 
-    .poportfolio {background-color: #E7E9FC;}
+    .portfolio {background-color: #E7E9FC;}
+
     .our-portfolio { 
      font-family: Roboto, sans-serif;
     font-size: 36px;
@@ -135,9 +135,7 @@ color: #2E2F42;
         text-transform: capitalize;
         color:  #2E2F42;
         }
-        .portfolio-list {
-            background-color: #ffffff;
-          }
+       
 .portfolio-subtitle {
 font-family: Roboto, sans-serif;
 font-size: 20px;
