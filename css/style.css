@@ -7,7 +7,7 @@ ul,ol { list-style: none;}
 a { text-decoration: none;}
 button {cursor: pointer;}
 
-.logo { font-family: Raleway, sans-serif;
+.logo-link { font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -59,6 +59,7 @@ button {cursor: pointer;}
 .hero-order-btn { background-color: #4D5AE5;}
     .hero-order-btn:hover,
     .hero-order-btn:focus { color:#404BBF;}
+
     .hero-order-btn{
     font-family: Roboto, sans-serif;
 font-size: 16px;
@@ -68,7 +69,7 @@ letter-spacing: 0.04em;
 color: #FFFFFF;
 }
 
-.advantage-list {     
+.advantage-subtitle {     
 font-family: Roboto, sans-serif;
 font-size: 20px;
 font-weight: 500;
@@ -87,8 +88,7 @@ color:  #2E2F42;
      }
 
 
- .team {background: #F4F4FD;
- }
+ .team { background-color: #F4F4FD;}
  
  .our-team {
 font-family: Roboto, sans-serif;
@@ -102,7 +102,7 @@ color: #2E2F42;
 }
 
 
-.team-item {
+.team-subtitle {
 font-family: Roboto, sans-serif;
 font-size: 20px;
 font-weight: 500;
@@ -130,7 +130,7 @@ color: #2E2F42;
         color:  #2E2F42;
         }
 
-.portfolio-item {
+.portfolio-subtitle {
 font-family: Roboto, sans-serif;
 font-size: 20px;
 font-weight: 500;
