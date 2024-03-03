@@ -66,10 +66,8 @@ button {cursor: pointer;}
     color: #ffffff; }
 
 
-    .hero-order-btn:hover {
-        background-color: #404bbf;
-      }
-.hero-order-btn:focus {text-decoration: none;
+    .hero-order-btn:hover,
+.hero-order-btn:focus {
     background-color: #404BBF;} 
 
 
@@ -104,7 +102,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
 }
-.team-item {
+.team-list {
     background-color: #ffffff;}
 
 .team-subtitle {
@@ -124,6 +122,9 @@ color: #2E2F42;
     color: #434455;
     }
 
+
+
+    .poportfolio {background-color: #E7E9FC;}
     .our-portfolio { 
      font-family: Roboto, sans-serif;
     font-size: 36px;
@@ -134,7 +135,7 @@ color: #2E2F42;
         text-transform: capitalize;
         color:  #2E2F42;
         }
-        .portfolio-item {
+        .portfolio-list {
             background-color: #ffffff;
           }
 .portfolio-subtitle {
