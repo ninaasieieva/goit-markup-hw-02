@@ -2,9 +2,9 @@ body { font-family: Roboto,
     sans-serif;
     color: #434455 ;
     background-color:  #FFFFFF;}
+    a { text-decoration: none;}
 
 ul,ol { list-style: none;}
-a { text-decoration: none;}
 button {cursor: pointer;}
 
 .logo-link { font-family: Raleway, sans-serif;
@@ -35,6 +35,7 @@ button {cursor: pointer;}
     font-style: normal;
 }
 .address-link { font-family: Roboto, sans-serif;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;   
@@ -57,16 +58,20 @@ button {cursor: pointer;}
     }
    
 .hero-order-btn { background-color: #4D5AE5;
-    
-    }
-    .hero-order-btn{
-font-family: Roboto, sans-serif;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.50;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-}
+    cursor: pointer;
+    justify-content: flex-start;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff; }
+
+
+    .hero-order-btn:hover {
+        background-color: #404bbf;
+      }
+.hero-order-btn:focus {text-decoration: none;
+    background-color: #404BBF;} 
+
 
 .advantage-subtitle {     
 font-family: Roboto, sans-serif;
@@ -99,7 +104,8 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
 }
-
+.team-item {
+    background-color: #ffffff;}
 
 .team-subtitle {
 font-family: Roboto, sans-serif;
@@ -118,8 +124,6 @@ color: #2E2F42;
     color: #434455;
     }
 
-.portfolio {background-color: #E7E9FC;
-    }
     .our-portfolio { 
      font-family: Roboto, sans-serif;
     font-size: 36px;
@@ -130,7 +134,9 @@ color: #2E2F42;
         text-transform: capitalize;
         color:  #2E2F42;
         }
-
+        .portfolio-item {
+            background-color: #ffffff;
+          }
 .portfolio-subtitle {
 font-family: Roboto, sans-serif;
 font-size: 20px;
