@@ -57,11 +57,12 @@ button {cursor: pointer;}
     }
    
 .hero-order-btn { background-color: #4D5AE5;}
+
     .hero-order-btn:hover,
-    .hero-order-btn:focus { color:#404BBF;}
+    .hero-order-btn:focus {background-color:#404BBF;}
 
     .hero-order-btn{
-    font-family: Roboto, sans-serif;
+font-family: Roboto, sans-serif;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.50;
@@ -88,7 +89,7 @@ color:  #2E2F42;
      }
 
 
- .team { background-color: #F4F4FD;}
+ .team { background-color:#F4F4FD;}
  
  .our-team {
 font-family: Roboto, sans-serif;
@@ -119,6 +120,9 @@ color: #2E2F42;
     color: #434455;
     }
 
+
+    .portfolio {background-color: #FFFFFF;}
+    
     .our-portfolio { 
      font-family: Roboto, sans-serif;
     font-size: 36px;
